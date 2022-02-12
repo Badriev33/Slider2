@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    
+}
+
+html, body {
+    font-size: 18px;
+    font-family: sans-serif;
+    
+}
+
+.container {
+    max-width: 2100px;
+    margin: 110px auto;
+    background: white;
+    padding: 30px;
+}
+
+button {
+    background: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: .9rem;
+    
+}
+
+.btn-prev {
+position: absolute;
+top: 45%;
+left: 27%;
+height: 12%;
+background-color: black;
+opacity: 0.4;
+color: white;
+}
+
+.btn-next {
+    position: absolute;
+    top: 45%;
+    left: 68%;
+    height: 12%;
+    background-color: black;
+    opacity: 0.4;
+    color: white;
+}
+
+
+.slider {
+    width: 700px;
+    height: 400px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+
+.slider-line {
+    width: 2100px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
